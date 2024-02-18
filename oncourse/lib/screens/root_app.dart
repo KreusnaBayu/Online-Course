@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:oncourse/screens/search.dart';
 import 'package:oncourse/theme/color.dart';
 import '../utils/constant.dart';
 import '../widget/bottombar_item.dart';
@@ -24,12 +25,7 @@ class _RootAppState extends State<RootApp> with TickerProviderStateMixin {
     {
       "icon": "assets/icons/search.svg",
       "active_icon": "assets/icons/search.svg",
-      "page": Container(),
-    },
-    {
-      "icon": "assets/icons/play.svg",
-      "active_icon": "assets/icons/play.svg",
-      "page": Container(),
+      "page": SearchPage(),
     },
     {
       "icon": "assets/icons/chat.svg",
